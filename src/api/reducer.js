@@ -14,7 +14,7 @@ const reducer = (state, action) => {
         case 'CONNECT_ERROR':
             return { ...state, apiState: 'ERROR', apiError: action.payload };
         case 'SET_ACCOUNT':
-            return { ...state, account: action.payload }
+            return { ...state, account: action.payload };
         case "SET_NETWORKID":
             return { ...state, networkId: action.payload };
         case "SET_BALANCE":
